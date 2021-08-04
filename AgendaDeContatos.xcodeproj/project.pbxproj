@@ -18,6 +18,7 @@
 		CEBD559B26BAE4D000D15DE9 /* AgendaDeContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD559A26BAE4D000D15DE9 /* AgendaDeContatosTests.m */; };
 		CEBD55A626BAE4D000D15DE9 /* AgendaDeContatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD55A526BAE4D000D15DE9 /* AgendaDeContatosUITests.m */; };
 		CEBD55B526BB237D00D15DE9 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD55B426BB237D00D15DE9 /* Contato.m */; };
+		CEBD55B826BB407E00D15DE9 /* ListaDeContatos.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD55B726BB407E00D15DE9 /* ListaDeContatos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		CEBD55A726BAE4D000D15DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEBD55B326BB237D00D15DE9 /* Contato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
 		CEBD55B426BB237D00D15DE9 /* Contato.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		CEBD55B626BB407E00D15DE9 /* ListaDeContatos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaDeContatos.h; sourceTree = "<group>"; };
+		CEBD55B726BB407E00D15DE9 /* ListaDeContatos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListaDeContatos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				CEBD55B326BB237D00D15DE9 /* Contato.h */,
 				CEBD55B426BB237D00D15DE9 /* Contato.m */,
 				CEBD558426BAE4CE00D15DE9 /* Main.storyboard */,
+				CEBD55B626BB407E00D15DE9 /* ListaDeContatos.h */,
+				CEBD55B726BB407E00D15DE9 /* ListaDeContatos.m */,
 				CEBD558A26BAE4CF00D15DE9 /* Assets.xcassets */,
 				CEBD558C26BAE4CF00D15DE9 /* LaunchScreen.storyboard */,
 				CEBD558F26BAE4CF00D15DE9 /* Info.plist */,
@@ -274,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBD55B826BB407E00D15DE9 /* ListaDeContatos.m in Sources */,
 				CEBD559126BAE4CF00D15DE9 /* main.m in Sources */,
 				CEBD558326BAE4CE00D15DE9 /* ViewController.m in Sources */,
 				CEBD558926BAE4CE00D15DE9 /* AgendaDeContatos.xcdatamodeld in Sources */,
