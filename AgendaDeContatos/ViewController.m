@@ -7,15 +7,17 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+-(IBAction) adiciona{
+    //imprimindo mensagem no log
+    //self acessa a propriedade do view controler
+    NSLog(@"Clicou no Botão %@", [self.nome text]);
+    NSLog(@"Clicou no Botão %@", [self.telefone text]);
+    NSLog(@"Clicou no Botão %@", [self.endereco text]);
+    NSLog(@"Clicou no Botão %@", [self.email text]);
+    NSLog(@"Clicou no Botão %@", [self.site text]);
 }
 
 
