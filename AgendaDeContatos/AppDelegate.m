@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ListaDeContatos.h"
 
 @interface AppDelegate ()
 
@@ -15,7 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ListaDeContatos *lista = [ListaDeContatos new];
+    //colocando topbar
+    UINavigationController *navLista = [[UINavigationController alloc] initWithRootViewController:lista];
+    
+    self.window.rootViewController = navLista;
+    
     return YES;
 }
 
