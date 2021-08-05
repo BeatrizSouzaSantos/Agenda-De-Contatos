@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3385C126BC24F700F5B341 /* ListaDeContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3385C026BC24F700F5B341 /* ListaDeContatosViewController.m */; };
 		CEBD557D26BAE4CE00D15DE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD557C26BAE4CE00D15DE9 /* AppDelegate.m */; };
 		CEBD558026BAE4CE00D15DE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD557F26BAE4CE00D15DE9 /* SceneDelegate.m */; };
 		CEBD558326BAE4CE00D15DE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD558226BAE4CE00D15DE9 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3385BF26BC24F700F5B341 /* ListaDeContatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaDeContatosViewController.h; sourceTree = "<group>"; };
+		CE3385C026BC24F700F5B341 /* ListaDeContatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListaDeContatosViewController.m; sourceTree = "<group>"; };
 		CEBD557826BAE4CE00D15DE9 /* AgendaDeContatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaDeContatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBD557B26BAE4CE00D15DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEBD557C26BAE4CE00D15DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				CEBD558F26BAE4CF00D15DE9 /* Info.plist */,
 				CEBD559026BAE4CF00D15DE9 /* main.m */,
 				CEBD558726BAE4CE00D15DE9 /* AgendaDeContatos.xcdatamodeld */,
+				CE3385BF26BC24F700F5B341 /* ListaDeContatosViewController.h */,
+				CE3385C026BC24F700F5B341 /* ListaDeContatosViewController.m */,
 			);
 			path = AgendaDeContatos;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3385C126BC24F700F5B341 /* ListaDeContatosViewController.m in Sources */,
 				CEBD559126BAE4CF00D15DE9 /* main.m in Sources */,
 				CEBD558326BAE4CE00D15DE9 /* ViewController.m in Sources */,
 				CEBD558926BAE4CE00D15DE9 /* AgendaDeContatos.xcdatamodeld in Sources */,
